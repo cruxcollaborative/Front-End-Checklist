@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Multiple Ways to Navigated",
+    "priority": "High",
+    "description": "Sites should have at least two ways to navigate.",
+    "detail": "Sites should have at least two ways to navigate. A relatively simple solution to meet this requirement is including a main navigation as well as a site map footer. Other ways to navigate can include: Search functionality (adds form complexity); Links on each page that take you to next/previous page; Sets of related links at bottom of content on each page; Site map page; Table of contents; Links to all other pages within the content; Links to all of the pages from the home page."
+    ,
+    "documentation": [
+      {
+        "title": "More info on Multiple Ways:",
+        "url": "https://www.wuhcag.com/multiple-ways/"
+      }
+    ],
+    "tags": ["all", "UX", "patterns"]
+  },
+  {
+    "title": "Header Order",
+    "priority": "High",
+    "description": "In a perfect world, headers naturally flow from the highest level down to content paragraphs. In practice, this does not always feel as logical as it seems. That said, it's good to strive for it (or at least be aware of it) so that it is a conscious decision to depart from natural order. Also, headers should be short and clear, to break up large chunks of text. There are tricks we use in Dev to make an out-of-order header look like we want if necessary (e.g., an H2 that looks like an H3). A natural order for headers is a single H1 page title, H2 section titles, and any number of H3 sub-section headers + paragraphs or other content types like images or tables. The clickable part of drawers usually tend to be an H3. The first header inside a modal dialog window should be a an H2.",
+    "documentation": [
+      {
+        "title": "More info on Headers:",
+        "url": "https://www.wuhcag.com/headings-and-labels/"
+      }
+    ],
+    "tags": ["all", "accessibility", "best practices"]
+  },
+  {
+    "title": "Timed interactions",
+    "priority": "Medium",
+    "description": "Avoid time-based interactions",
+    "detail": "If there is a time-based limit on any interaction, it will be a challenge to code properly. Avoid time-based components.",
+    "tags": ["all", "accessibility", "best practices"]
+  },
+  {
+    "title": "Multi-Level Tables",
+    "priority": "High",
+    "description": "Tables have potential to become very cumbersome even when they look relatively simple. It all has to do with how many levels there are. Every cell has to be mapped to its parent cells using unique IDs. When creating a table, ask yourself if the data is truly tabular data or not. Sometimes the information can be conveyed in much simpler paragraphs. If it is tabular data, proceed with using a table layout but be wary of using multiple levels of table headers. There are times when a single multi-level table can be split into 2 simpler tables with H3 headers. If you've considered these things and a deeply nested, multi-level table is the only layout that makes sense, go for it. It often is the only sensible approach. But it should be understood that it will be many times more complex to build.  If responsive accessibility is a requirement, this becomes even more complex.",
+    "tags": ["all", "accessibility", "best practices"]
+  },
+  {
+    "title": "Contrast + Links",
+    "priority": "High",
+    "description": "Use color contrast analyzer tools to check if overall color options pass contrast ratio for Normal Text below 18px (min. ratio 4.5:1) and for Large Text (min. ratio 3:1). Be sure to check links that are used within paragraphs or otherwise located near to other text. In these cases, the contrast ratio must be tested between the link text color and the paragraph text color.  If the contrast ratio is not high enough, you must create a way to see the link text stand out from the other text, such as adding an underline.",
+    "documentation": [
+      {
+        "title": "More about Contrast + Links:",
+        "url": "https://www.wuhcag.com/contrast-enhanced/"
+      }
+    ],
+    "tags": ["all", "accessibility", "best practices"]
+  },
+  {
+    "title": "Focus Visible",
+    "priority": "High",
+    "description": "Typically handled in development, but we could add some nice flourishes by intentionally designing for link focus outlines and/or backgrounds. These outlines appear when keyboard users tab through the links of a site. Color contrast ratios must be met on outlines.",
+    "documentation": [
+      {
+        "title": "More about Focus Visible:",
+        "url": "https://www.wuhcag.com/focus-visible/"
+      }
+    ],
+    "tags": ["all", "accessibility", "best practices"]
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Card",
+    "priority": "High",
+    "description": "UX patterns are ready for QA on desktop + mobile.",
+    "tools": [
+      {
+        "title": "ContentCard",
+        "url": "https://cruxcollaborative.basecamphq.com/"
+      }
+    ],
+    "tags": ["all", "UX", "patterns"]
+  },
+  {
+    "title": "Collapse",
+    "priority": "High",
+    "description": "Open and close",
+    "detail": "When clicked, the panel will animate out by sliding up and fading out OR animate in by sliding down and fading in.",
+    "tags": ["all", "UX", "patterns", "collapse"]
+  },
+  {
+    "title": "Modals",
+    "priority": "High",
+    "description": "Modal dialogs interrupt users and demand an action. They are appropriate when user’s attention needs to be directed toward important information.",
+    "documentation": [
+      {
+        "title": "Modal Dialog",
+        "url": "https://mathiasbynens.github.io/rel-noopener/"
+      },
+      {
+        "title": "Non-Modal Dialog",
+        "url": "https://mathiasbynens.github.io/rel-noopener/"
+      }
+    ],
+    "tags": ["all", "html", "best practices", "modals"]
+  }
+]
