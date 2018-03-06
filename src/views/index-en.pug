@@ -12,6 +12,16 @@ block main
     if _items !== undefined
 
       +checklist-section({
+        dataSection: _items.uxpatterns,
+        sectionTitle: "UX Patterns"
+      })
+
+      +checklist-section({
+        dataSection: _items.uxaccessibility,
+        sectionTitle: "UX Accessibility"
+      })
+      
+      +checklist-section({
         dataSection: _items.head,
         sectionTitle: "Head"
       })
@@ -55,5 +65,6 @@ block main
         dataSection: _items.seo,
         sectionTitle: "SEO"
       })
+
 
   include components/s-section-bottom
